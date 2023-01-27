@@ -1,6 +1,6 @@
 ﻿# Practice Labs
 
-Hi! This is my list for the practice labs to solve for the preparation of OSCP exam. I lot of the recommendation is taken from TJNull's NetSecFocus Trophy List: https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview (I personally recommend to solve all from this list as this is a gem of a collection)
+Hi! This is my curated list for the practice labs to solve for the preparation of OSCP exam. I lot of the recommendation is taken from TJNull's NetSecFocus Trophy List: https://docs.google.com/spreadsheets/u/1/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/htmlview (I personally recommend to solve all from this list as this is a gem of a collection)
 
 
 ## Proving Grounds
