@@ -1,12 +1,12 @@
 ﻿
 ### **Exam Network**
-a. Enter all individual IPs
-b. Enter all AD IPs (3 machines)
-c. Enter private interface Ips for AD if applicable
+1. Enter all individual IPs
+2. Enter all AD IPs (3 machines)
+3. Enter private interface Ips for AD if applicable
 
 ###  **Service Enumeration**
-a. Port scan results in tabular format in single record (TCP/UDP)
-b. Heading for particular service enumeration, from where we found a
+1. Port scan results in tabular format in single record (TCP/UDP)
+2. Heading for particular service enumeration, from where we found a
 potential target software
 
 ### **Initial Access**
