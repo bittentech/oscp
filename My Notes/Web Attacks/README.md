@@ -1,5 +1,5 @@
 ﻿
-**LFI:**
+### **LFI:**
 1. cat /etc/passwd
 2. cat **service config** files
 3. **Upload** a reverse shell and **locate** it
@@ -8,12 +8,12 @@
 6. **/proc/self/environ** (shell in user-agent)
 7. **Apache log poisoning** (shell in **user-agent**)
 
-**CSRF**
+### **CSRF**
 1. Try to test **POST to GET** conversion and vice versa
 9. **Send GET link** for sensitive action in any form that goes to another user
 10. Generate **CSRF PoC** and **upload**
 
-**SQLi:**
+### **SQLi:**
 1. **Pentestmonkey** cheatsheet
 12. Try *admin'#* (**valid username**, see netsparker sqli cheatsheet)
 13. Try *abcd' or 1=1;-*-
@@ -34,14 +34,14 @@ Dirbuster:
 19. Also use dirb/**big.txt** or multiple wordlists
 20. Scan for **all http ports**
 
-**SSRF:**
+### **SSRF:**
 1. Try to open **other subdomains**
 22. Bypass restrictions with **case switching**
 23. Use **other protocols**, file://, ftp (single line http like auth and access,
 ftp://user:pass@server/path
-24. Try **inline meta chars** $(),`
+24. Try **inline meta chars** $(),\`
 
-**Creds:**
+### **Creds:**
 1. **Default** username/passwords
 26. Username as default **password as service name**
 27. Default username and password **bruteforce**
@@ -51,12 +51,12 @@ ftp://user:pass@server/path
 31. Generate custom wordlist with **cewl** (--with-numbers)
 32. Use **hashcat rules** if hints point to it, (-r rule_path, **best64** should work)
 
-**File Upload:**
+### **File Upload:**
 1. **Change mime** type
 34. Add **image headers**
 35. Add payload in **exiftool** **comment** and name file as file.php.png
  
-**SSTI:**
+### **SSTI:**
 1. Identify with **tplmap.py**
 38. Use SSTI -> RCE
 39. Use SSTI **chart** to identify template engine

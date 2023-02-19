@@ -5,7 +5,7 @@
 4. Use **--script=vuln** / --script = [service]*
 5. **nikto** -h web_app:port
 
-**Service Banners/version:**
+### **Service Banners/version:**
 1. **nc** IP PORT
 8. Service **utility**
 9. Web page **source/footer**

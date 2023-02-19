@@ -1,15 +1,15 @@
 ﻿
-1. **Exam Network**
+### **Exam Network**
 a. Enter all individual IPs
 b. Enter all AD IPs (3 machines)
 c. Enter private interface Ips for AD if applicable
 
-2. **Service Enumeration**
+###  **Service Enumeration**
 a. Port scan results in tabular format in single record (TCP/UDP)
 b. Heading for particular service enumeration, from where we found a
 potential target software
 
-3. **Initial Access**
+### **Initial Access**
 a. Heading for which attack is exploited
 b. Vuln explanation
 c. Vuln Fix
@@ -23,7 +23,7 @@ v. File transfer commands and ss
 vi. Shell reception
 vii. PoC Code
 
-4. **Priv Esc**
+### **Priv Esc**
 a. Heading for issue exploited
 b. Explanation
 c. Fix
@@ -31,7 +31,7 @@ d. Severity
 e. Steps to Reproduce
 i. Commands and output with ss
 
-5. **Post Exploitation**
+### **Post Exploitation**
 a. Proof files screenshots
 b. If Windows, use PsExec to get SYSTEM
 c. Proof screenshot format:

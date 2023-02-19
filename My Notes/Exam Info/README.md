@@ -1,5 +1,5 @@
 ﻿
-**60 points**
+### **60 points**
 1. 3 independent targets
 	1. 2-step targets (low and high privileges)
 	2. Buffer Overflow may (or may not) be included as a low-privilege attack vector
@@ -7,7 +7,7 @@
 	4. 10 points for low-privilege
 	5. 10 points for privilege escalation
 	
-**40 points (Active Directory)**
+### **40 points (Active Directory)**
 1. 2 clients
 2. 1 domain controller
 	1. Active Directory set

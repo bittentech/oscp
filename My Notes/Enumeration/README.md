@@ -28,7 +28,7 @@
 8. Try to run **NSE** scripts
 9. Enumerate **version**
 
-## **RPCCLient:**
+### **RPCCLient:**
 1. **rpcclient** -U'user%pass' (or null) host
 12. In prompt,
 13. **Enumdomusers**

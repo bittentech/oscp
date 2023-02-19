@@ -1,5 +1,5 @@
 ﻿
-**Linux:**
+### **Linux:**
 1. Check **sudo -l**
 2. **LinPEAS**
 3. **Horizontal privesc**!
@@ -47,8 +47,8 @@ c. Check **header** files (stdlib, sys/types.h, stdio)
 d. Common ports
 e. Generic bash -I payload
 
-**Windows:**
-37. Users\[user]\Desktop
+### **Windows:**
+1. Users\[user]\Desktop
 38. **WinPEAS**
 39. **Horizontal privesc**!
 40. **UAC Bypass** (manual > msf > empire)
@@ -79,7 +79,7 @@ e. Generic bash -I payload
 65. Check **AlwaysInstallElevated** (can **execute any software package** installer with SYSTEM (e.g. **msi**)
 66. Check for **WSL path** (rootfs)
 
-**Active Directory:**
+### **Active Directory:**
 1. **net user /domain**
 2. Horizontal!
 3. When found **other user creds**, run **service as another user** with powershell PSCredential and **Start-Process**
