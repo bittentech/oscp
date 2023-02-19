@@ -36,4 +36,4 @@
 15. **Enum***
 
 **Shellshock:**
-16. Search for **executable extensions** (py,php,pl,sh,cgi,rb) inside **/cgi-bin/**
+1. Search for **executable extensions** (py,php,pl,sh,cgi,rb) inside **/cgi-bin/**

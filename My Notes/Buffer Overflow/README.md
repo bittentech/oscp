@@ -1,16 +1,16 @@
 ﻿1. **Env setup**
-		a. Mona working directory
-		b. Run the binary/service
-		c. Start immunity debugger as admin
-	d. Attach the process
+		1. Mona working directory
+		2. Run the binary/service
+		3. Start immunity debugger as admin
+		4. Attach the process
 	
 2. **Fuzzing**
-a. Identify crashing point
-b. Msf pattern create -l crashpoint
+	1. Identify crashing point
+	2. Msf pattern create -l crashpoint
 
 3. **Control EIP**
-a. Msf pattern offset -q EIP value
-b. Exploit code set offset and observe EIP value
+	1. Msf pattern offset -q EIP value
+	2. Exploit code set offset and observe EIP value
 
 4. **Finding bad chars**
 a. Generate all bad chars with python
