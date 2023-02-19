@@ -12,3 +12,6 @@
 10. **CHANGELOG**.txt
 11. **README**.txt
 12. **LICENSE**.txt
+
+### **nc Port scan:**
+1. nc -z -w 1 -v IP PORTRANGE (start-end) 2>&1 | grep -I succeeded
