@@ -10,36 +10,36 @@ b. Heading for particular service enumeration, from where we found a
 potential target software
 
 ### **Initial Access**
-a. Heading for which attack is exploited
-b. Vuln explanation
-c. Vuln Fix
-d. Severity
-e. Steps to Reproduce
-i. Nmap command and output (screenshots)
-ii. Searchsploit for exploit (ss)
-iii. Exploit URL and modification (modified code)
-iv. Payload generation
-v. File transfer commands and ss
-vi. Shell reception
-vii. PoC Code
+1. Heading for which attack is exploited
+2. Vuln explanation
+3. Vuln Fix
+4. Severity
+5. Steps to Reproduce
+	1. Nmap command and output (screenshots)
+	2. Searchsploit for exploit (ss)
+	3. Exploit URL and modification (modified code)
+	4. Payload generation
+	5. File transfer commands and ss
+	6. Shell reception
+	7. PoC Code
 
 ### **Priv Esc**
-a. Heading for issue exploited
-b. Explanation
-c. Fix
-d. Severity
-e. Steps to Reproduce
-i. Commands and output with ss
+1. Heading for issue exploited
+2. Explanation
+3. Fix
+4. Severity
+5. Steps to Reproduce
+6. Commands and output with ss
 
 ### **Post Exploitation**
-a. Proof files screenshots
-b. If Windows, use PsExec to get SYSTEM
-c. Proof screenshot format:
-i. Type proof.txt && whoami && ipconfig
-d. If AD,
-i. Mimikatz enum
-ii. Groups Enum
-iii. RDP screenshots
-iv. Pivoting tools and commands
+1. Proof files screenshots
+2. If Windows, use PsExec to get SYSTEM
+3. Proof screenshot format:
+	1. Type proof.txt && whoami && ipconfig
+4. If AD,
+	1. Mimikatz enum
+	2. Groups Enum
+	3. RDP screenshots
+	4. Pivoting tools and commands
 
 Exam Guide: https://help.offensive-security.com/hc/enus/articles/360040165632-OSCP-Exam-Guide
