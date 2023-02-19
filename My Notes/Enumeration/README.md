@@ -17,14 +17,14 @@
 2. Use impacket GetADUsers to enum all users with valid creds
 
 **DNS:**
-3. Use **nameserver** (hostname of the target) to enumerate subdomains (add entry to
+1. Use **nameserver** (hostname of the target) to enumerate subdomains (add entry to
 /etc/hosts)
 4. **host** -l nameserver IP
 5. **Zone transfer** with dig
 6. Check **https versions** of subdomain web pages
 
 **SMB:**
-7. Try to **change client_min/client_max protocols** if disconnect error (-m/--option, NT1)
+1. Try to **change client_min/client_max protocols** if disconnect error (-m/--option, NT1)
 8. Try to run **NSE** scripts
 9. Enumerate **version**
 
