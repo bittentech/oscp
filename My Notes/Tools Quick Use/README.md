@@ -22,7 +22,7 @@
 
 ### **Wfuzz:**
 1. **Subdomain enum:**
-- *wfuzz -u main_host -w wordlist -H FUZZ.host.com --sc 200 --hc 302*
+	1. *wfuzz -u main_host -w wordlist -H FUZZ.host.com --sc 200 --hc 302*
 
 ### Dirbuster:
 1. **Common extensions** php/asp/do/html/txt/
