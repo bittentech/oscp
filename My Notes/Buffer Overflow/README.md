@@ -1,4 +1,6 @@
-﻿## **Env setup**
+<span style="color:red"> <b>*NO LONGER REQUIRED FOR OSCP (REMOVED FROM THE SYLLABUS)*<b> </span>
+ 
+ ## **Env setup**
 		1. Mona working directory
 		2. Run the binary/service
 		3. Start immunity debugger as admin
